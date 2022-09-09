@@ -6,14 +6,14 @@
    
     <p>La qualité depuis 70 ans</p>
     <ul>
-        <li><a href="jarditouaccueil.html"> Accueil</a></li>
+        <li><a href="jarditouaccueil.html" id="Accueil"> Accueil</a></li>
         <li><a href="jarditoutableau.html"> Tableau</a></li>
         <li><a href="jarditoucontact.html"> Contact</a></li>
 
     </ul>
 <img src="assets/img/promotion.jpg" width="1500" alt="PROMOTION_SUR_LAMES_DE_TERRASSE" title="PROMOTION SUR LAMES DE TERRASSE">
 <header><H1>Contact</H1></header>
-<link rel="stylesheet" href="assets/css/style.css">
+
 
 <hr>
 <p>* Ces zones sont obligatoires</p>
@@ -86,11 +86,12 @@
 <html lang="fr">
     <title>jarditou</title>
 <body>
-    <img src="assets/img/jarditou_logo.jpg" width="350" alt="logo_jarditou" title="logo jarditou">
+  
+    <img src="assets/img/jarditou_logo.jpg" width="350" alt="logo_jarditou" title="logo jarditou" id="logo">
    
-    <p>La qualité depuis 70 ans</p>
+    <p id="la">La qualité depuis 70 ans</p>
     <ul>
-        <li><a href="jarditouaccueil.html"> Accueil</a></li>
+        <li><a href="jarditouaccueil.html" id="Accueil1"> Accueil</a></li>
         <li><a href="jarditoutableau.html"> Tableau</a></li>
         <li><a href="jarditoucontact.html"> Contact</a></li>
 
@@ -99,70 +100,71 @@
 <header><H1>Contact</H1></header>
 <link rel="stylesheet" href="assets/css/style.css">
 
-<hr>
-<p>* Ces zones sont obligatoires</p>
-<fieldset>
-    <legend>Vos coordonnées</legend>
-    <ul>
-        <form action="jarditou/add.html" method="get" target="_blank" id="my_form">
-       <li><label>Votr nom* : </label>
-       <input type="text" id="nom" name="nom" placeholder="nom" maxlength="50"></li>
-
-     <li><label>Votr prénom* : </label>
-      <input type="text" id="prénom" name="prénom" placeholder="Prénom" maxlength="50"></li>
-     <li><label>Sexe* :</label>
-      <input type="radio" name="Sexe* :" value="blou"> Féminin 
-      <input type="radio" name="Sexe* :" value="blou">Masculin
-     </li>
-     <li><label>Date de naissance* :</label>
-     <input type="date" id="datedenissance"  name="date de nissance" >
-      </li>
-
-     <li><label>Code postal* :</label>
-     <input type="number" id="codepostal" name="codepostal" placeholder="Code postal">
-     </li>
-     <li><label>Adresse :</label>
-     <input type="text" id="adresse" name="adresse" placeholder="Adresse">
-     </li>
-      <li><label>Ville</label>
-        <input type="text" id="ville" name="ville" placeholder="ville">
-     </li>
-     <li><label>Email* :</label>
-        <input type="email" id="email" name="email" placeholder="Email">
-     </li>
-     
-        
-    </ul>
-
-</fieldset>
-<fieldset>
-    <legend>Votre demande</legend>
-    <label>Sujet* :</label>
-    <select name="sujet" id="sujet" >
-        <option value="jarditou">jarditou</option>
-        <option value="jarditou">jarditou 1 </option>
-        <option value="jarditou">jarditou 2</option>
-    </select>
-    <p><label>votre question* :</label>
-    <input type="text">
-
-
-</p>
-</fieldset>
-<input type="checkbox"><label>* J'accepte le traitement informatique de ce formulaire </label>
-</form>
-<p><button type="submit" form="my_form">submit</button></p>
-<p>
-    <input type="submit" value="Envoyer"> <input type="submit" value="Annuler">
-</p>
-
-<hr>
-<nav>
-    <ul>
-<li><a href="add.html">Mention</a> </li>
-<li><a href="horaires.html">Horaires</a></li>
-<li><a href="plantdusite.html">Plan du site</a></li>
-    </ul>
-</nav>
-</body>
-</html>
+      <hr>
+      <p>* Ces zones sont obligatoires</p>
+      <fieldset>
+          <legend id="coordonnées">Vos coordonnées</legend>
+          <ul>
+              <form action="jarditou/add.html" method="get" target="_blank" id="my_form" class="degrade-horizontal">
+             <li><label>Votr nom* : </label>
+             <input type="text" id="nom" name="nom" placeholder="nom" maxlength="50"></li>
+      
+           <li><label>Votr prénom* : </label>
+            <input type="text" id="prénom" name="prénom" placeholder="Prénom" maxlength="50"></li>
+           <li><label>Sexe* :</label>
+            <input type="radio" name="Sexe* :" value="blou"> Féminin 
+            <input type="radio" name="Sexe* :" value="blou">Masculin
+           </li>
+           <li><label>Date de naissance* :</label>
+           <input type="date" id="datedenissance"  name="date de nissance" >
+            </li>
+      
+           <li><label>Code postal* :</label>
+           <input type="number" id="codepostal" name="codepostal" placeholder="Code postal">
+           </li>
+           <li><label>Adresse :</label>
+           <input type="text" id="adresse" name="adresse" placeholder="Adresse">
+           </li>
+            <li><label>Ville</label>
+              <input type="text" id="ville" name="ville" placeholder="ville">
+           </li>
+           <li><label>Email* :</label>
+              <input type="email" id="email" name="email" placeholder="Email">
+           </li>
+           
+              
+          </ul>
+      
+      </fieldset>
+      <fieldset>
+          <legend>Votre demande</legend>
+          <label>Sujet* :</label>
+          <select name="sujet" id="sujet" >
+              <option value="jarditou">jarditou</option>
+              <option value="jarditou">jarditou 1 </option>
+              <option value="jarditou">jarditou 2</option>
+          </select>
+          <p><label>votre question* :</label>
+          <input type="text">
+      
+      
+      </p>
+      </fieldset>
+      <input type="checkbox"><label>* J'accepte le traitement informatique de ce formulaire </label>
+      </form>
+      <p><button type="submit" form="my_form">submit</button></p>
+      <p>
+          <input type="submit" value="Envoyer" id="envoyer"> <input type="submit" value="Annuler">
+      </p>
+      
+      <hr>
+      <nav>
+          <ul>
+      <li><a href="add.html">Mention</a> </li>
+      <li><a href="horaires.html">Horaires</a></li>
+      <li><a href="plantdusite.html">Plan du site</a></li>
+          </ul>
+      </nav>
+      </body>
+      </html>
+ 
