@@ -21,8 +21,23 @@
     font-size: 20px;
     width:auto;
     text-align: start;
+    margin-left: 40px;
 }
-#accueillink{
+#fon{
+    padding: 0.1em;
+    
+    color: white;
+   
+ font-display: 20px;
+}
+#fon1{
+    padding: 0.1em;
+    
+    color: white;
+   
+ font-display: 20px;
+}
+#fon2{
     padding: 0.1em;
     
     color: white;
@@ -50,6 +65,12 @@ margin-left: 40px;
 #plan{
     color: white;
 }
+#plan1{
+    color: white;
+}
+#plan2{
+    color: white;
+}
 #colonnedroite{
     text-align: left;
     font-size: 20px;
@@ -71,6 +92,18 @@ float:none;
  
 }
 #tex{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique italic;
+}
+
+#tex1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique italic;
+}
+
+#tex2{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: oblique italic;
